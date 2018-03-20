@@ -1,0 +1,57 @@
+SetEnv PHP_VER 5_3
+SetEnv REGISTER_GLOBALS 0
+
+## SITE REFERRER BANNING
+RewriteCond %{HTTP_REFERER} sexyali.com [NC,OR]
+RewriteCond %{HTTP_REFERER} sexyali.com
+RewriteRule .* - [F]
+
+## SITE REFERRER BANNING
+RewriteCond %{HTTP_REFERER} erot.co [NC,OR]
+RewriteCond %{HTTP_REFERER} erot.co
+RewriteRule .* - [F]
+
+## SITE REFERRER BANNING
+RewriteCond %{HTTP_REFERER} chinese-amezon.com [NC,OR]
+RewriteCond %{HTTP_REFERER} chinese-amezon.com
+RewriteRule .* - [F]
+
+## SITE REFERRER BANNING
+RewriteCond %{HTTP_REFERER} e-buyeasy.com [NC,OR]
+RewriteCond %{HTTP_REFERER} e-buyeasy.com
+RewriteRule .* - [F]
+
+## SITE REFERRER BANNING
+RewriteCond %{HTTP_REFERER} floating-share-buttons.com [NC,OR]
+RewriteCond %{HTTP_REFERER} floating-share-buttons.com
+RewriteRule .* - [F]
+
+## SITE REFERRER BANNING
+RewriteCond %{HTTP_REFERER} forum.topic64927459.darodar.com [NC,OR]
+RewriteCond %{HTTP_REFERER} forum.topic64927459.darodar.com
+RewriteRule .* - [F]
+
+## SITE REFERRER BANNING
+RewriteCond %{HTTP_REFERER} free-floating-buttons.com [NC,OR]
+RewriteCond %{HTTP_REFERER} free-floating-buttons.com
+RewriteRule .* - [F]
+
+## SITE REFERRER BANNING
+RewriteCond %{HTTP_REFERER} free-social-buttons.com [NC,OR]
+RewriteCond %{HTTP_REFERER} free-social-buttons.com
+RewriteRule .* - [F]
+
+## SITE REFERRER BANNING
+RewriteCond %{HTTP_REFERER} get-free-social-traffic.com [NC,OR]
+RewriteCond %{HTTP_REFERER} get-free-social-traffic.com
+RewriteRule .* - [F]
+
+## SITE REFERRER BANNING
+RewriteCond %{HTTP_REFERER} hongfanji.com [NC,OR]
+RewriteCond %{HTTP_REFERER} hongfanji.com
+RewriteRule .* - [F]
+
+## SITE REFERRER BANNING
+RewriteCond %{HTTP_REFERER} ilovevitaly.com [NC,OR]
+RewriteCond %{HTTP_REFERER} ilovevitaly.com
+RewriteRule .* - [F]

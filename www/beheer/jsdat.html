@@ -1,0 +1,16 @@
+<!DOCTYPE>
+<html>
+<body>
+<input type="date" onchange="test(this, 0)">
+<input type="date" onchange="test(this, 1)">
+<script>
+function test(x, i) {
+if (i == 0) {
+x.nextElementSibling.min = x.value;
+} else {
+x.previousElementSibling.max = x.value;
+}
+}
+</script>
+</body>
+</html>
