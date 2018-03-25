@@ -104,7 +104,7 @@
     </nav>
     <section id="middle">
       <div id="inhoud">
-        <h2>Voorverkoop zwemabonnementen 2018</h2>
+        <h2>Voorverkoop zwemabonnementen <?php echo date('Y'); ?></h2>
         <p>
           De zomer nadert, en dat vergt natuurlijk een goede voorbereiding.
           E&eacute;n van die voorbereidingen betreft natuurlijk het aanschaffen
@@ -123,26 +123,28 @@
           Betaling is mogelijk per kas of via PIN-betaling.
         </p>
         <h2>Watergewenning</h2>
+        <p><b><i>Dit onderdeel gaat onder voorbehoud door.</i></b></p>
         <p>
           Is uw kind 3 of 4 jaar, en wilt u hem of haar laten wennen aan
           het water als voorbereiding op zwemles? Dan hebt u geluk!
-          Vanaf week 26 biedt zwembad De Marne namelijk <b>watergewenning</b> aan.
+          Zwembad De Marne biedt namelijk <b>watergewenning</b> aan.
           Door middel van spelletjes en oefeningen leert uw kind het water kennen
           en daarin te bewegen, waardoor het leren zwemmen wordt vergemakkelijkt.
         </p>
-        <table>
-          <th>Dag</th>
-          <th>Tijd</th>
-          <th>Kosten</th>
-          <tr>
-            <td>Vrijdag</td>
-            <td>16:00 - 16:30</td>
-            <td>&euro; 35,00</td>
-          </tr>
-        </table>
+        <div style="display: none;">
+          <table>
+            <th>Dag</th>
+            <th>Tijd</th>
+            <th>Kosten</th>
+            <tr>
+              <td>Vrijdag</td>
+              <td>16:00 - 16:30</td>
+              <td>&euro; 35,00</td>
+            </tr>
+          </table>
+        </div>
         <p>
-          De watergewenning duurt tot het eind van het seizoen. Voor vragen kunt
-          u terecht bij H. de Boer of
+          Voor vragen kunt u terecht bij H. de Boer of
           <a href="mailto:info@zwembaddemarne.nl">info@zwembaddemarne.nl</a>.
           Opgave kan bij de kassa van het zwembad.
         </p>
@@ -167,7 +169,7 @@
             <td>11:00-17:00</td>
           </tr>
         </table>
-        <h3>Tarieven 2017</h3>
+        <h3>Tarieven <?php echo date('Y'); ?></h3>
         <table>
           <th></th>
           <th>Voorverkoop</th>
